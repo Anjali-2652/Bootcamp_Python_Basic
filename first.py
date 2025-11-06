@@ -174,3 +174,14 @@ print(a[-1:7])
 a="123abc"
 b=a.maketrans("abc","abc")
 print(b)
+
+a="SoftwarIca College"
+print(a.istitle())
+a="PYThON"
+print(a.isupper())
+a="capital"
+print("A".isupper())
+a="capital"
+print(a.capitalize("c"))
+a="+Capital9"
+print(a.count("9"))
